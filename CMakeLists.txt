@@ -3,5 +3,6 @@ project(CCSDSLab)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CCSDSLab main.cpp)
+add_executable(CCSDSLab src/main.cpp)
+target_include_directories(CCSDSLab PRIVATE include)
 
