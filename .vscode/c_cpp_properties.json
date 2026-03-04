@@ -15,7 +15,7 @@
             "cppStandard": "gnu++17",
             "intelliSenseMode": "windows-gcc-x64",
             "configurationProvider": "ms-vscode.cmake-tools",
-            "compilerPath": "D:/yby/app/msys264/ucrt64/bin/g++.exe"
+            "compilerPath": "D:/app/msys64/ucrt64/bin/g++.exe"
         }
     ],
     "version": 4

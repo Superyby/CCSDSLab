@@ -4,14 +4,14 @@
             "name": "CCSDS",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/main.exe",
+            "program": "${workspaceFolder}\\main.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "D:/yby/app/msys264/ucrt64/bin",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\yby\\app\\msys264\\ucrt64\\bin\\gdb.exe",
+            "miDebuggerPath": "D:\\app\\msys64\\ucrt64\\bin\\gdb.exe",
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -25,7 +25,7 @@
                 }
             ],
             "preLaunchTask": "C/C++: g++.exe 构建和调试活动文件"
-        },
+        }
     ],
     "version": "2.0.0"
 }

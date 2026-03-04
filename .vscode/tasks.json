@@ -1,25 +1,28 @@
 {
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "C/C++: g++.exe 构建和调试活动文件",
-            "command": "D:/yby/app/msys264/ucrt64/bin/g++.exe",
+            "command": "D:\\app\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "-I",
-                "${workspaceFolder}/include",
-                "${workspaceFolder}/src/main.cpp",
+                "${workspaceFolder}\\include",
+                "${workspaceFolder}\\src\\main.cpp",
                 "-o",
-                "${workspaceFolder}/main.exe"
+                "${workspaceFolder}\\main.exe"
             ],
             "options": {
-                "cwd": "D:/yby/app/msys264/ucrt64/bin"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "detail": "调试器生成的任务。"
         }
     ],

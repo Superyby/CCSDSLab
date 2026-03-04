@@ -7,12 +7,12 @@
       "generator": "MinGW Makefiles",
       "binaryDir": "${sourceDir}/build",
       "cacheVariables": {
-        "CMAKE_C_COMPILER": "D:/yby/app/msys264/ucrt64/bin/gcc.exe",
-        "CMAKE_CXX_COMPILER": "D:/yby/app/msys264/ucrt64/bin/g++.exe",
+        "CMAKE_C_COMPILER": "D:/app/msys64/ucrt64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/app/msys64/ucrt64/bin/g++.exe",
         "CMAKE_BUILD_TYPE": "Debug"
       },
       "environment": {
-        "PATH": "D:/yby/app/msys264/ucrt64/bin;$penv{PATH}"
+        "PATH": "D:/app/msys64/ucrt64/bin;$penv{PATH}"
       }
     }
   ],
